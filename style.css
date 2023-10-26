@@ -1,0 +1,90 @@
+nav {
+	display: flex;
+	background-color: black;
+	color: white;
+}
+ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.nav-right {
+	display: flex;
+	width: 20%;
+	justify-content: space-around;
+}
+.container {
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+.container-left {
+	width: 20%;
+	height: 45vh;
+	justify-content: space-between;
+	justify-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	font-size: 25px;
+}
+button {
+	background-color: blue;
+	border: none;
+	color: white;
+	width: 15vw;
+	height: 8vh;
+	font-size: 15px;
+}
+.container-right {
+	width: 50vw;
+	height: 60vh;
+}
+
+.square-container {
+	position: relative;
+}
+
+.square-1 {
+	position: absolute;
+	background-color: rgb(202, 42, 202);
+	height: 40vh;
+	width: 40vw;
+	left: 60px;
+	top: 30px;
+}
+.square-2 {
+	position: absolute;
+	background-color: blue;
+	height: 10vh;
+	width: 10vw;
+}
+.square-3 {
+	position: absolute;
+	background-color: blue;
+	height: 10vh;
+	width: 10vw;
+	top: 230px;
+	left: 50%;
+}
+.square-4 {
+	position: absolute;
+	background-color: black;
+	height: 40vh;
+	width: 15vw;
+	top: 150px;
+	left: 65%;
+}
+.footer {
+	background-color: black;
+	height: 20vh;
+	width: 100;
+	display: flex;
+	justify-content: space-around;
+	color: white;
+}
